@@ -1,0 +1,36 @@
+p{
+         background-color: blueviolet;
+            font-size: 250%;
+            box-shadow: 10px 10px 21px blue;
+            text-transform: uppercase;
+            text-decoration: underline;
+            box-shadow: 12px 12px 14px;
+
+
+        }
+.p1{
+            background-color: rgb(240, 229, 11);
+            border: 2px solid black;
+            border-top: 5px double;
+        }
+        .p2{
+            background-color: rgb(60, 255, 0);
+            border: 2px dotted red;
+        }
+        .p3{
+            background-color: rgb(255, 234, 0);
+            border: 5px dashed rgb(224, 130, 130);
+            
+            border-radius: 15px;
+        }
+        div,span{
+            font-size: 300%;
+            height: 150px;
+            width: 150px;
+            border: 5px solid red;
+            padding: 15px;
+            margin: 50px;
+            display: inline-block;
+
+            
+        }
