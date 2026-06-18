@@ -1,0 +1,50 @@
+body {
+            border-color: rgb(27, 19, 19);
+            border-width: 5px;
+            border-style: solid;
+
+
+        }
+
+        h1,h2,table 
+        {
+            text-align: center;
+        }
+
+        .info {
+            text-align: center;
+            color: rgb(101, 99, 95);
+            font-size: 120%;
+        }
+
+        .p2 {
+            text-align: center;
+            color: rgb(4, 55, 100);
+
+
+        }
+
+        table {
+            margin-left: 30%;
+
+        }
+
+        .skills {
+            display: flex;
+            font-size: 170%;
+
+
+        }
+
+        .li {
+            margin-left: 5%;
+            border: 2px solid black;
+            font-size: 130%;
+            padding: 15px;
+            display: inline-block;
+            height: 10%;
+            width: 30%;
+           border-radius:30%;
+           background-color:pink ;
+           
+        }

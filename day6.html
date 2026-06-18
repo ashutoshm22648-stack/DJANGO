@@ -1,0 +1,62 @@
+ <!-- WAP to accecpt two integer values from user and perform basic arithmetic operation like + - * / etc on and to get every operation creat seperate button  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+        // function add(){
+        //     let x = document.getElementById('val1').value;
+        //     let y = document.getElementById('val2').value;
+        //     document.getElementById('result').value = parseInt(x)+ parseInt(y);
+        // }
+        // function diff(){
+        //     let x = document.getElementById('val1').value;
+        //     let y = document.getElementById('val2').value;
+        //     document.getElementById('result').value = parseInt(x)- parseInt(y);
+        // }
+        // function prod(){
+        //     var x = document.getElementById('val1').value;
+        //     var y = document.getElementById('val2').value;
+        //     document.getElementById('result').value = parseInt(x)*parseInt(y);
+        // }
+        // function div(){
+        //     let x= document.getElementById('val1').value;
+        //     let y = document.getElementById('val2').value;
+        //     document.getElementById('result').value = parseInt(x)/ parseInt(y);
+        // }
+        function masterFxn(mF){
+            let x= document.getElementById('val1').value;
+            let y = document.getElementById('val2').value;
+            if (mF=="summation"){
+                document.getElementById('result').value = parseInt(x)+ parseInt(y);
+            }
+            else if (mF=="difference"){
+                document.getElementById('result').value = parseInt(x)- parseInt(y);
+            }
+            else if (mF=="division"){
+                 document.getElementById('result').value = parseInt(x)/ parseInt(y);
+            }
+            else if (mF=="product"){
+               document.getElementById('result').value = parseInt(x)* parseInt(y);
+            }
+           
+            
+
+        }
+</script>
+<body>
+   
+    <input type="text" placeholder="enter a number" id='val1'><br>
+    <input type="text" placeholder="enter a number" id='val2' ><br>
+    <input type="text" placeholder="result" id='result'><br>
+    <input type="button" value="summation" onclick=masterFxn(this.value)><br>
+    <input type="button" value="difference" onclick=masterFxn(this.value)><br>
+    <input type="button" value="product" onclick=masterFxn(this.value)><br>
+    <input type="button" value="division" onclick=masterFxn(this.value)><br>
+
+
+</body>
+</html>

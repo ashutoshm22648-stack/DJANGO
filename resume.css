@@ -1,0 +1,16 @@
+#main{
+    display: flex;
+    width: 100%;
+    height: 100em;
+    border: 2px solid black;
+}
+#sidebar{
+    height: 100em;
+    width: 20%;
+    background-color: cadetblue;
+}
+#info{
+    height: 100em;
+    width: 80%;
+    background-color: cornflowerblue;
+}
